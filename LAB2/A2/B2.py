@@ -1,7 +1,6 @@
 import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
 
-# Load dataset (modify filename if needed)
 df = pd.read_csv("groceries - groceries.csv")
 
 
